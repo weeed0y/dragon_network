@@ -1,13 +1,14 @@
+# Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
+#
+# This file is part of < https://github.com/DevsExpo/FridayUserBot > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/DevsExpo/blob/master/LICENSE >
+#
+# All rights reserved.
 
-#clonning repo 
-RUN git clone https://github.com/LEGEND-LX/PYTHONUSERBOT.git /root/userbot
-#working directory 
-WORKDIR /root/userbot
-
-# Install requirements
-RUN pip3 install -U -r requirements.txt
-
-ENV PATH="/home/userbot/bin:$PATH"
-
-CMD ["python3","-m","userbot"]
-
+FROM python:3.9
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1
+COPY . .
+RUN bash startup.sh
+ENTRYPOINT ["python3", "-m", "main_startup"]

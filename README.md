@@ -1,59 +1,106 @@
-![photo_2022-01-22_23-42-13](https://user-images.githubusercontent.com/98252847/150669309-945b259d-b898-4ab6-9710-9e3ba81c9fb1.jpg)
-![photo_2022-01-22_23-41-52](https://user-images.githubusercontent.com/98252847/150669312-cd6f10c7-6f8c-4e3c-89f9-a37ae32863c5.jpg)
-![photo_2022-01-22_23-45-28](https://user-images.githubusercontent.com/98252847/150669325-f6e998ee-c3c4-46fd-8a96-eccc151c5555.jpg)
-![photo_2022-01-22_23-45-32](https://user-images.githubusercontent.com/98252847/150669333-006a3e6e-4027-4dc0-a9bb-f0621b11b736.jpg)
+<p align="center"><a href="https://t.me/fridayot"><img src="https://telegra.ph/file/22535f8051a58af113586.jpg" width="5000"></a></p> 
+<h1 align="center"><b>FRIDAY-USERBOT 🇮🇳 </b></h1>
+<h4 align="center">A Powerful, Smart And Simple Userbot In Pyrogram.</h4>
 
 
-{DEVELOPER}By = [DARK-LEGEND-PRO](http://t.me/LegendHacker_IN)
+## Support 🚑
+<a href="https://t.me/FridaySupportOfficial"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/fridayOT"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+
+## Inspiration & Credits
+* [Userge-X](https://github.com/code-rgb/USERGE-X/contributors)
+* [Userge](https://github.com/UsergeTeam/Userge)
+* [Pokurt](https://github.com/UsergeTeam/Pokurt)
+* [Pyrogram](https://github.com/pyrogram/pyrogram/contributors)
+
+## Code Owners
+* [Chsaiujwal](https://github.com/chsaiujwal)
+* [Aditya](https://github.com/Aditya-XD)
+* [Lakhac](https://github.com/Lakhac)
+* [InukaAsith](https://github.com/InukaAsith)
+* [SHRE-YANSH](https://github.com/SHRE-YANSH)
+
+# String Session - Pyrogram 🖱
+### Repl 🧨
+[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@MIDHUNKMKM/StringGen)
+### Locally 🏆
+```
+$ git clone https://github.com/DevsExpo/FridayUserbot
+$ cd FridayUserBot
+$ python(3) string_gen.py
+```
+
+# Hosting 🖥
+
+### Deploying To Heroku / Railway ⚙
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DevsExpo/FridayUserBot)
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FDevsExpo%2FFridayUserBot&envs=API_HASH%2CAPI_ID%2CBOT_TOKEN%2CLOG_GRP%2CMONGO_DB%2CSTRINGSESSION%2CTZ&optionalEnvs=BOT_TOKEN%2CCOMMAND_HANDLER%2CUPSTREAM_REPO&API_HASHDesc=Get+this+value+from+my.telegram.org%21+Please+do+not+steal&API_IDDesc=Get+this+value+from+my.telegram.org%21+Please+do+not+steal&BOT_TOKENDesc=Your+Bot+Token+Obtained+From+%40BotFather.+This+is+Not+Important&COMMAND_HANDLERDesc=Your+Command+Handler.&LOAD_UNOFFICIAL_PLUGINSDesc=Do+You+Wish+To+Load+X-Tra+Plugins%3F&LOG_GRPDesc=A+Group+ID+Where+You+Want+To+Log+Important+Logs.&MONGO_DBDesc=Create+A+Database+In+Mongodb+And+Get+URL.+Make+Sure+To+Enter+Correct+URL%21&STRINGSESSIONDesc=String+Session%2C+Run+string_gen.py+to+get+String+Session.&TZDesc=Your+Time+Zone&LOAD_UNOFFICIAL_PLUGINSDefault=True&TZDefault=Asia%2FKolkata)
 
 
-✞︎tß Pythonẞø†
+### Self-hosting (For Devs) ⚔
+```sh
+# Install Git First // (Else You Can Download And Upload to Your Local Server)
+$ git clone https://github.com/DevsExpo/FridayUserBot
+# Open Git Cloned File
+$ cd FridayUserBot
+# Install All Requirements 
+$ pip(3) install -r requirements.txt
+# Create local.env with variables as given below
+# Start Bot 
+$ python(3) -m main_startup
+```
 
-⚡𝕷𝖊𝖌𝖊𝖓𝖉𝖆𝖗𝖞 ᴀғ Pythonẞø✞︎⚡
-r
-ITS ALL CREDITS GOES TO LEGEND-LX. 
-USERNAME = ⚜[LEGEND-LX](https://github.com/LEGEND-LX)
-<h3> ∂єρℓογ το нєяοκυ </h3>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9000)
-__________COMING_SOON_______
-<p><a href=https://github.com/LEGEND-LX/PYTHONBOT-V9.0.8> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-blueviolet?style=for-the-badge&logo=railway" width="200""/></a></p>
+### Mandatory Configs 📒
+```
+[+] Make Sure You Add All These Mandatory Vars. 
+    [-] API_ID:   You can get this value from https://my.telegram.org
+    [-] API_HASH :   You can get this value from https://my.telegram.org
+    [-] STRINGSESSION : Your String Session, You can get this From Repl or BY running String_Gen File Locally
+    [-] MONGO_DB : Your Mongo DB DataBase Url. 
+    [-] LOG_GRP: Your Log Group/Channel Chat ID. This is Very Important and Some Modules Will Not Work Well Without This!
+[+] The fridayUserbot will not work without setting the mandatory vars.
+```
+
+# Examples - Plugins 👊
+
+### Plugins 🔧
+
+```python3
+from main_startup.core.decorators import friday_on_cmd
+from main_startup.helper_func.basic_helpers import edit_or_reply
+
+@friday_on_cmd(['helloworld'],
+    cmd_help={
+    "help": "This is A TEST",
+    "example": "{ch}helloworld"
+    })
+async def hello_world(client, message):
+    mg = await edit_or_reply(message, "`Hello World! This Works!`")
+```
+### Custom Filters 📣
+
+```python3
+from main_startup.core.decorators import listen
+
+@listen(filters.mentioned)
+async def mentioned_(client, message):
+    await message.reply_text("`Hello World! By The Way Why Did You Mention Me?`")
+```
+
+# X-Tra Plugins 🎸
+* Please Visit [Xtra-Plugins](https://github.com/DevsExpo/Xtra-Plugins) To Checkout Xtra-Plugins.
 
 
-_______________String_Session__________________________
+# Licence 📋
+[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-[![String](https://telegra.ph/file/a776d32132d1bddf988de.jpg)](https://replit.com/@LEGEND-LX/PYTHONBOT-4#main.py) 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@LEGEND-LX/PYTHONBOT-4#main.py) 
+* Copyright (C) 2020-2021 by DevsExpo@Github, < https://github.com/DevsExpo >.
 
-Python_Session__________________________________________
-- Click On Generate String
-- Then Click On Green Run Button.
-- Wait for a while then fill the details.
- - String will be saved in your Saved Message.
-TO HOST PYTHON LOCALLY OR ON ANY OTHER VPS CLICK BELOW
-
-⚡ Python𝕭øt ⚡
-
-Do U Face Any Problem Contact me Through Telegram
-
-To Get Details Of StringSession Follow Step:
-- Go To Telegram And Search @UseTGXBot
-- Click Start
-- Send Ur Phone Number To @UseTGXBot
-- U Received Code From Telegram Like This=VGFK0rHbzaF
-- Copy Ur Code
-- Paste Ur Code in @UseTGXBot
-- U Received APP ID
-- Now Run StringSession Given Below:
-StringSession
-String
-
-Contact Me
-
-• LICENSE •[license](https://github.com/DARK-LEGEND-PRO/PYTHONBOT-V9.0.8/blob/master/LICENSE)
-• 💡 CREDITS 💞 •
-[⚜LEGEND-LX](https://github.com/LEGEND-LX)
-![image](https://user-images.githubusercontent.com/87700009/133560871-e318f78b-16e7-4fe5-ad57-f1661b99f576.png)
-![image](https://user-images.githubusercontent.com/87700009/133560891-ca9899ed-d95c-4050-b50a-af67790020f5.png)
-![image](https://user-images.githubusercontent.com/87700009/133560924-ac05edc1-43b8-4aa3-ab56-36661d5d5b5d.png)
-![image](https://user-images.githubusercontent.com/87700009/133560910-6117ba9e-9165-4fd1-8fb2-4d1ecca3c20e.png)
+FridayUB is Free Software: You can use, study share and improve it at your
+will. Specifically you can redistribute and/or modify it under the terms of the
+[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
+published by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. 
